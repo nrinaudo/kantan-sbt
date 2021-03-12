@@ -7,6 +7,6 @@ addSbtPlugin("com.typesafe.sbt"  % "sbt-ghpages"            % "0.6.3")
 addSbtPlugin("com.typesafe.sbt"  % "sbt-site"               % "1.4.1")
 addSbtPlugin("org.scalastyle"    %% "scalastyle-sbt-plugin" % "1.0.0")
 addSbtPlugin("org.wartremover"   % "sbt-wartremover"        % "2.4.13")
-addSbtPlugin("org.xerial.sbt"    % "sbt-sonatype"           % "3.9.5")
+addSbtPlugin("org.xerial.sbt"    % "sbt-sonatype"           % "3.9.7")
 
 libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % sbtVersion.value
